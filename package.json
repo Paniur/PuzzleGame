@@ -1,0 +1,29 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/prod.js ",
+    "start": "webpack-dev-server --config webpack/base.js --open"
+  },
+  "devDependencies": {
+    "@babel/core": "^*",
+    "@babel/preset-env": "^*",
+    "babel-loader": "^*",
+    "clean-webpack-plugin": "^*",
+    "file-loader": "^*",
+    "html-webpack-plugin": "^*",
+    "raw-loader": "^*",
+    "terser-webpack-plugin": "^*",
+    "webpack": "^*",
+    "webpack-cli": "^*",
+    "webpack-dev-server": "^*",
+    "webpack-merge": "^*"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^23.1.1",
+    "pixi-sound": "^3.0.5",
+    "pixi.js": "^*"
+  }
+}
